@@ -1,5 +1,8 @@
 {
   "version": "1.0.0",
   "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.0.0/JustMic-Setup-1.0.0.exe",
-  "notes": "First public build of JustMic."
+  "notes": "First public build of JustMic.",
+  "sha256": "c5f2d634e72e506c4fc6ea3e91e5b19e22973a2b6ee84200494f387d6d970437",
+  "sizeBytes": 52892365,
+  "publishedUtc": "2026-09-13T18:57:02Z"
 }
