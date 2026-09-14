@@ -1,8 +1,8 @@
 {
-  "version": "1.1.1",
-  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.1.1/JustMic-Setup-1.1.1.exe",
-  "notes": "## JustMic v1.1.1\n\n- share-safe: the virtual microphone output runs in exclusive mode so screen sharing and recorders can never capture the processed voice from the cable; HEAR ME recording note; version 1.1.1\r\n",
-  "sha256": "cd75a8f709a882bd3c0f6e4bf362b9b83ac1ff7db71aa6770056f996dcb6e206",
-  "sizeBytes": 52936204,
-  "publishedUtc": "2026-09-14T20:25:00Z"
+  "version": "1.1.2",
+  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.1.2/JustMic-Setup-1.1.2.exe",
+  "notes": "## JustMic v1.1.2\n\n- version 1.1.2\n- recording-safe hear-yourself: monitor moves to a secondary return channel of the interface (e.g. RODECaster Chat) when it pointed at the Windows default output\r\n",
+  "sha256": "0dce20f7aa55c4eb50ed974571d6583068e4fcf18baed204f473ecd65fc07a2a",
+  "sizeBytes": 52961107,
+  "publishedUtc": "2026-09-14T20:46:10Z"
 }
