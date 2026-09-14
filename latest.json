@@ -1,8 +1,8 @@
 {
-  "version": "1.1.2",
-  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.1.2/JustMic-Setup-1.1.2.exe",
-  "notes": "## JustMic v1.1.2\n\n- version 1.1.2\n- recording-safe hear-yourself: monitor moves to a secondary return channel of the interface (e.g. RODECaster Chat) when it pointed at the Windows default output\r\n",
-  "sha256": "0dce20f7aa55c4eb50ed974571d6583068e4fcf18baed204f473ecd65fc07a2a",
-  "sizeBytes": 52961107,
-  "publishedUtc": "2026-09-14T20:46:10Z"
+  "version": "1.1.3",
+  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.1.3/JustMic-Setup-1.1.3.exe",
+  "notes": "## JustMic v1.1.3\n\n- hear-yourself stays off the Windows default output on device changes and monitor fallbacks; status text and HEAR ME tooltip state whether recordings can hear it; version 1.1.3\r\n",
+  "sha256": "8cd56814fe4cda5a633c371cbf9bdebf92588288dc7eb1c64a780eb9cb345b04",
+  "sizeBytes": 52934667,
+  "publishedUtc": "2026-09-14T21:08:55Z"
 }
