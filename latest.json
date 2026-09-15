@@ -1,8 +1,8 @@
 {
-  "version": "1.3.0",
-  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.3.0/JustMic-Setup-1.3.0.exe",
-  "notes": "## JustMic 1.3.0\r\n\r\n- Guided updates: check for new versions at every launch, with a popup when the app is open or a Windows notification when it starts in the tray.\r\n- A new update badge beside the app name and a redesigned Settings > Updates page show fetching, download and verification progress.\r\n- See the published features and fixes from the versions you missed. Skip one version with a clear warning, then get reminders again for later releases; skipped versions remain installable in Settings.\r\n- Update directly in the app: the official installer is checked against the release size and SHA-256 before Windows runs it. You approve installation; cancellation leaves JustMic running.\r\n- Updates preserve settings, presets, sounds and startup preferences, avoid repeating driver setup, and restart JustMic after installation. Finish calls and close sound editors before updating.\r\n\r\nPrivate monitoring, recording checks and portable backups from 1.2 remain available. Software headphone monitoring can be captured by other apps when privacy protection is disabled; use hardware monitoring for private listening.\r\n\r\n",
-  "sha256": "255c6c7cb665de567c1f370ce6171474ee5af80797ec3ce2d7d10540bbcceb0b",
-  "sizeBytes": 52991073,
-  "publishedUtc": "2026-09-15T20:51:17Z"
+  "version": "1.3.1",
+  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.3.1/JustMic-Setup-1.3.1.exe",
+  "notes": "## JustMic 1.3.1\r\n\r\n- Fixed silent soundboard playback when HEAR ME is off. Headphone clip playback now has an independent HEAR SOUNDS switch and is no longer reduced by the voice-monitor volume knob.\r\n- Editor previews play locally even when headphone pad playback is disabled; microphone-only clips still stay out of the headphone mix.\r\n- Fixed missing final audio buffers and very short clips on the headphone output. Both destinations are mixed before playback completes.\r\n- With private monitoring protection enabled, JustMic respects your selected headphone device instead of moving clips to an alternative output.\r\n- Privacy protection remains enabled: live voice is not added to the software headphone mix. Use hardware headphone-only monitoring to hear your voice privately; intentionally played sounds can still be captured by screen sharing.\r\n\r\nSettings, presets, sounds and startup preferences are preserved. The updater from 1.3.0 can install this version from Settings > Updates.\r\n\r\n",
+  "sha256": "827d425d8dda0e0a9d4fc511c0577573993e828137e606b2fb0f8f34c5328af4",
+  "sizeBytes": 53001366,
+  "publishedUtc": "2026-09-15T21:21:36Z"
 }
