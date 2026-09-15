@@ -1,8 +1,8 @@
 {
-  "version": "1.3.1",
-  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.3.1/JustMic-Setup-1.3.1.exe",
-  "notes": "## JustMic 1.3.1\r\n\r\n- Fixed silent soundboard playback when HEAR ME is off. Headphone clip playback now has an independent HEAR SOUNDS switch and is no longer reduced by the voice-monitor volume knob.\r\n- Editor previews play locally even when headphone pad playback is disabled; microphone-only clips still stay out of the headphone mix.\r\n- Fixed missing final audio buffers and very short clips on the headphone output. Both destinations are mixed before playback completes.\r\n- With private monitoring protection enabled, JustMic respects your selected headphone device instead of moving clips to an alternative output.\r\n- Privacy protection remains enabled: live voice is not added to the software headphone mix. Use hardware headphone-only monitoring to hear your voice privately; intentionally played sounds can still be captured by screen sharing.\r\n\r\nSettings, presets, sounds and startup preferences are preserved. The updater from 1.3.0 can install this version from Settings > Updates.\r\n\r\n",
-  "sha256": "827d425d8dda0e0a9d4fc511c0577573993e828137e606b2fb0f8f34c5328af4",
-  "sizeBytes": 53001366,
-  "publishedUtc": "2026-09-15T21:21:36Z"
+  "version": "1.3.2",
+  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.3.2/JustMic-Setup-1.3.2.exe",
+  "notes": "## JustMic 1.3.2\r\n\r\n- Fixed HEAR ME appearing enabled while privacy protection kept live voice silent. Enabling it now asks you to accept the capture risk, then plays on your selected headphones.\r\n- Removed automatic switching to Chat/Secondary outputs. Your selected headphone device is respected, with a fallback only if it disappears.\r\n- Added PAUSE FOR SHARING beside HEAR ME. It pauses live voice playback without changing your JustMic microphone, effects, soundboard routes or levels; releasing it preserves your previous monitoring intent.\r\n- Sharing pause is manual: JustMic cannot reliably detect screen sharing in every app. Enable it before sharing or recording. Software monitoring can be captured even when Discord's microphone is muted.\r\n- Settings, presets, sound copies and startup preferences are preserved. Updates do not silently enable voice monitoring.\r\n\r\n",
+  "sha256": "3b029037dd2cfa14c618f5f5ed8bdc60c6dc9792957bb73f17d9fa6f66ee6b62",
+  "sizeBytes": 53057467,
+  "publishedUtc": "2026-09-15T21:48:00Z"
 }
