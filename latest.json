@@ -1,8 +1,8 @@
 {
-  "version": "1.1.3",
-  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.1.3/JustMic-Setup-1.1.3.exe",
-  "notes": "## JustMic v1.1.3\n\n- hear-yourself stays off the Windows default output on device changes and monitor fallbacks; status text and HEAR ME tooltip state whether recordings can hear it; version 1.1.3\r\n",
-  "sha256": "8cd56814fe4cda5a633c371cbf9bdebf92588288dc7eb1c64a780eb9cb345b04",
-  "sizeBytes": 52934667,
-  "publishedUtc": "2026-09-14T21:08:55Z"
+  "version": "1.2.0",
+  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.2.0/JustMic-Setup-1.2.0.exe",
+  "notes": "# JustMic 1.2.0\r\n\r\n- **Private monitoring is now enabled by default.** Live microphone audio is removed from software monitor playback, including dry and effected paths. Intentional soundboard playback is preserved. This prevents the HEAR ME path from leaking live voice when the microphone is muted in Discord or a recorder. To hear yourself privately, use your interface's headphone-only hardware monitoring, outside its USB recording mix. Software HEAR ME requires explicitly accepting capture risk in Settings → Hear yourself. The virtual microphone continues carrying your voice and effects normally.\r\n- **Recording check:** a shortcut in Master and a new settings page measure the JustMic microphone and selected system output. Repeatable six-second voice/system tests flag missing audio and possible monitor leakage. A final checklist verifies the actual recorder with its microphone muted, then enabled. No diagnostic audio is saved or uploaded. Results are not a universal guarantee for other apps or hardware routes.\r\n- **Complete backup and restore:** export settings, calibration, saved/archived presets, soundboard media and edits in one portable file. Restores validate asset checksums, use fresh file names, create an automatic safety backup and preserve current mute. Device choices stay local by default; restored sounds do not resync from original paths. Drivers are not included.\r\n- Clearer monitoring labels and warnings, dedicated settings pages, larger screen-clamped settings window, and black text on lime actions.\r\n\r\nVerification: 112 automated tests; both new pages rendered at narrow/wide widths in both themes. Recorder/share behavior must be checked in the user's actual capture app; JustMic cannot enforce that app's process capture or hardware routing rules.\r\n\r\n",
+  "sha256": "aa7028667b87f5c28acdb3b5324dd8c3539e31acd6b86c31fb3416fe34964433",
+  "sizeBytes": 52970730,
+  "publishedUtc": "2026-09-15T20:08:09Z"
 }
