@@ -1,8 +1,8 @@
 {
-  "version": "1.3.2",
-  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.3.2/JustMic-Setup-1.3.2.exe",
-  "notes": "## JustMic 1.3.2\r\n\r\n- Fixed HEAR ME appearing enabled while privacy protection kept live voice silent. Enabling it now asks you to accept the capture risk, then plays on your selected headphones.\r\n- Removed automatic switching to Chat/Secondary outputs. Your selected headphone device is respected, with a fallback only if it disappears.\r\n- Added PAUSE FOR SHARING beside HEAR ME. It pauses live voice playback without changing your JustMic microphone, effects, soundboard routes or levels; releasing it preserves your previous monitoring intent.\r\n- Sharing pause is manual: JustMic cannot reliably detect screen sharing in every app. Enable it before sharing or recording. Software monitoring can be captured even when Discord's microphone is muted.\r\n- Settings, presets, sound copies and startup preferences are preserved. Updates do not silently enable voice monitoring.\r\n\r\n",
-  "sha256": "3b029037dd2cfa14c618f5f5ed8bdc60c6dc9792957bb73f17d9fa6f66ee6b62",
-  "sizeBytes": 53057467,
-  "publishedUtc": "2026-09-15T21:48:00Z"
+  "version": "1.4.0",
+  "url": "https://github.com/Jestriker/justmic-releases/releases/download/v1.4.0/JustMic-Setup-1.4.0.exe",
+  "notes": "## JustMic 1.4.0\r\n\r\n- Three built-in UI skins: Classic Rack keeps the original hardware interface; Canvas brings sidebar navigation, flat cards and fader-style controls; Midnight brings a tabbed studio workspace, a left-hand master and rounded rotary controls.\r\n- Choose your layout using visual preview cards in Settings > Appearance. The choice is saved for the next launch; Restart to apply skin offers a safe, explicit restart. Dark/light colors remain independently adjustable.\r\n- All skins use the same controls, commands and audio engine. Microphone effects, dials, presets, monitoring, soundboard tools, calibration and hotkeys retain their functionality.\r\n- Skin restarts save settings first and refuse to interrupt recordings, sound imports, updates, setup, backups or open sound editors. Restarting briefly interrupts audio; your presets and sound copies are preserved.\r\n- Existing installations stay on Classic Rack until you choose another skin. Unknown saved skin IDs safely fall back to Classic Rack.\r\n- Classic Rack now lets expanded advanced controls grow its scrollable area instead of clipping them. Wide Canvas and Midnight sections arrange three modules side by side.\r\n- Restart safety also keeps capped or unsuccessfully saved recordings available for an explicit save/retry instead of replacing them.\r\n\r\nHEAR ME and PAUSE FOR SHARING behave as in 1.3.2: sharing pause is manual, not automatic screen-sharing detection.\r\n\r\n",
+  "sha256": "10169506c01e1b669acbcc2fda6210cdfd6ab526fcb9341e18267ed492c1b364",
+  "sizeBytes": 53047157,
+  "publishedUtc": "2026-09-19T14:44:45Z"
 }
